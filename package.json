@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "node-sass": "^9.0.0"
+  },
+  "name": "lanchonete",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass src/styles.scss src/style.css",
+    "sass-watch": "node-sass --watch src/styles.scss src/style.css",
+    "sass-watch-min": "node-sass --output-style compressed --watch src/styles.scss src/style.min.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
